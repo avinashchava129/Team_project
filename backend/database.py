@@ -1,3 +1,4 @@
+#this file belongs to the database module that manages SQLite database operations for chat sessions, conversations, and uploaded file metadata.
 import sqlite3
 import json
 import logging

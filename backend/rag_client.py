@@ -1,3 +1,4 @@
+#this file belongs to the RAG client module that wraps Member 3's RAGPipeline and provides a clean API for the Streamlit frontend to query the index.
 import logging
 from typing import Dict, Any
 from rag_engine import RAGPipeline
