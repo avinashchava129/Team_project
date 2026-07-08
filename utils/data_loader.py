@@ -70,3 +70,4 @@ def load_chunks_from_json(file_path: Path) -> List[Dict[str, Any]]:
 
     logger.info(f"Successfully loaded and validated {len(valid_chunks)} chunks out of {len(data)} total entries.")
     return valid_chunks
+"loading"
