@@ -2,7 +2,7 @@ import logging
 import fitz  # PyMuPDF
 from pathlib import Path
 from typing import Dict
-
+"pdf loading"
 logger = logging.getLogger(__name__)
 
 def load_pdf(pdf_path: Path) -> str:
