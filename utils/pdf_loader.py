@@ -55,7 +55,7 @@ def load_pdf(pdf_path: Path) -> str:
             doc = fitz.open(pdf_path)
             ocr_pages = []
             
-            # Initialize reader (CPU only by default to avoid CUDA initialization conflicts)
+            # Initialize  reader (CPU only by default to avoid CUDA initialization conflicts)
             reader = easyocr.Reader(['en'], gpu=False)
             
             for page_num in range(len(doc)):
