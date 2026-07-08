@@ -25,7 +25,7 @@ def load_pdf(pdf_path: Path) -> str:
         return ""
 
     try:
-        # Open PDF document
+        # Open  PDF document
         doc = fitz.open(pdf_path)
     except Exception as e:
         logger.error(f"Error opening or reading corrupted PDF {pdf_path.name}: {e}")
