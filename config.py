@@ -82,3 +82,4 @@ API_TIMEOUT = TIMEOUT
 
 
 
+## if  olllama is not running then we can use gemini api  and if gemini api key is not provided then we can use  ollama model  and if both are not provided then we can use  default model

@@ -97,3 +97,4 @@ def save_vector_store(
         raise
 
     logger.info("Vector database and metadata saved successfully.")
+## why we can take  fassi database
