@@ -81,3 +81,4 @@ class EmbeddingEngine:
         except Exception as e:
             logger.error(f"Error during batch embedding generation: {e}")
             raise
+## should explain  the   embedding models types ... and  why we can take  this model only just explain 

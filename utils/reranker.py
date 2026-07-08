@@ -83,3 +83,4 @@ class RerankerEngine:
         except Exception as e:
             logger.error(f"Error during re-ranking process: {e}. Returning original FAISS ordering.")
             return chunks[:keep_top]
+## why we can take this model only just explain
