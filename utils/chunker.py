@@ -3,7 +3,7 @@ from typing import List
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 logger = logging.getLogger(__name__)
-
+"chunks"
 def generate_chunks(
     text: str,
     chunk_size: int = 500,
