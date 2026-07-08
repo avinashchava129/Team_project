@@ -1,3 +1,4 @@
+#this file belongs to the chat page where users can ask questions about candidate resumes and receive answers with source references.
 import torch
 import json
 import streamlit as st

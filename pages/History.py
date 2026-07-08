@@ -1,3 +1,4 @@
+#this file belongs to the history page where users can search, inspect, delete, or download historical resume QA exchanges from the database.
 import json
 import sqlite3
 import streamlit as st

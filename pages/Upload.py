@@ -1,3 +1,4 @@
+#upload one or multiple PDF resumes to compile them into the RAG knowledge base. The pipeline will automatically extract, clean, split, and embed the text.
 import streamlit as st
 from backend.uploader import process_uploads, get_uploaded_files
 from backend.database import get_uploaded_files
