@@ -16,7 +16,7 @@ def extract_candidate_name(filename: str) -> str:
     if " - " in stem:
         parts = stem.split(" - ")
         name_part = parts[1].strip()
-        # If the second part is too short or generic, fallback to the first part
+        # If the second  part is too short or generic, fallback to the first part
         if name_part and len(name_part) > 2 and name_part.lower() not in ["resume", "cv", "main"]:
             name = name_part
         else:
