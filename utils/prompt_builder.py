@@ -44,7 +44,7 @@ def build_rag_prompt(retrieved_context: str, question: str) -> str:
     """
     logger.info("Building prompt...")
     
-    # Strictly aligned with the requested RAG template
+    # Strictly aligned with the requested RAG template.
     prompt = f"""You are an AI Resume Assistant.
 
 Use ONLY the information provided in the context.
