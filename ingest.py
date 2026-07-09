@@ -10,7 +10,7 @@ from utils.pdf_loader import load_pdf
 from utils.text_cleaner import clean_text
 from utils.chunker import generate_chunks
 from utils.metadata import extract_candidate_name, create_chunk_metadata
-
+#config"
 # Configure python logging
 logging.basicConfig(
     level=getattr(logging, config.LOG_LEVEL, logging.INFO),
