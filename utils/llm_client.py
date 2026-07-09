@@ -49,7 +49,7 @@ def generate_answer(
     """
     import config
 
-    # 1. Check if Gemini API is enabled
+    # 1. Check if Gemini  API is enabled
     if getattr(config, "USE_GEMINI", False) and getattr(config, "GEMINI_API_KEY", ""):
         api_key = config.GEMINI_API_KEY
         gemini_model = getattr(config, "GEMINI_MODEL", "gemini-1.5-flash")
